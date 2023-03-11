@@ -1,3 +1,4 @@
+/* Pham Le Viet Duc */
 header{
     background-color: rgb(112, 112, 150); 
     padding: 5%;
@@ -7,14 +8,14 @@ header{
 }
 personal_info{
     background-color: rgb(201, 201, 213);
-    height: 1300px;
+    height: 1200px;
     float: left;
     width: 40%;
     color:black
 }
 spec_info{
     background-color: rgb(178, 178, 201);
-    height: 1300px;
+    height: 1200px;
     float: right;
     width: 60%;
     color: black;
@@ -23,11 +24,11 @@ spec_info{
 footer{
     background-color: rgb(112, 112, 150); 
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     color:aliceblue;
 }
 .box{
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgba(255, 255, 255, 0.692);
     color: black;
     margin: 10px;
@@ -40,4 +41,35 @@ footer{
     padding: 50%;
     margin: auto;
     text-align: center;
+}
+.barTV span{
+	display: block; 
+	height: 8px;
+	background-color:lightgrey;
+	border-radius: 15px;
+	position: relative;
+}
+.barTV span::before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 85%;
+	background-color: black;
+	border-radius: 8px;
+}
+
+.barTA span{
+	display: block; 
+	height: 8px;
+	background-color:lightgrey;
+	border-radius: 15px;
+	position: relative;
+}
+.barTA span::before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 75%;
+	background-color: black;
+	border-radius: 8px;
 }

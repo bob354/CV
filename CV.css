@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(112, 112, 150); 
+    padding: 5%;
+    text-align: left;
+    font-size: 50px;
+    color:aliceblue;
+}
+personal_info{
+    background-color: rgb(201, 201, 213);
+    height: 1300px;
+    float: left;
+    width: 40%;
+    color:black
+}
+spec_info{
+    background-color: rgb(178, 178, 201);
+    height: 1300px;
+    float: right;
+    width: 60%;
+    color: black;
+    border: 2px white;
+}
+footer{
+    background-color: rgb(112, 112, 150); 
+    text-align: center;
+    font-size: 45px;
+    color:aliceblue;
+}
+.box{
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.692);
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+.marg{
+    margin: 30px;
+}
+.center{
+    padding: 50%;
+    margin: auto;
+    text-align: center;
+}

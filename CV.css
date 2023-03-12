@@ -1,21 +1,21 @@
 /* Pham Le Viet Duc */
 header{
     background-color: rgb(112, 112, 150); 
-    padding: 5%;
+    padding: 2%;
     text-align: left;
     font-size: 50px;
     color:aliceblue;
 }
 personal_info{
     background-color: rgb(201, 201, 213);
-    height: 1200px;
+    height: 1150px;
     float: left;
     width: 40%;
     color:black
 }
 spec_info{
     background-color: rgb(178, 178, 201);
-    height: 1200px;
+    height: 1150px;
     float: right;
     width: 60%;
     color: black;
@@ -38,8 +38,8 @@ footer{
     margin: 30px;
 }
 .center{
-    padding: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 .barTV span{
